@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+}
+
+html, body {
+    scroll-behavior: smooth;
+}
+:root {
+    --white-color-: #fff;
+    --black-color-: #000;
+}
+.tag-a {
+    text-decoration: none;
+}
+.tag-li {
+    list-style: none;
+}
+span {
+    display: block;
+}
+.button_gradient {
+    background-image: -webkit-linear-gradient(35deg, #91ad41 0%, #ff8a6c 100%)!important;
+}
+.text_gradient {
+    background: -moz-linear-gradient(35deg, #91ad41 0%, #ff8a6c 100%);
+    background: -webkit-linear-gradient(35deg, #91ad41 0%, #ff8a6c 100%);
+    background: -ms-linear-gradient(35deg, #91ad41 0%, #ff8a6c 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    -ms-background-clip: text;
+    -ms-text-fill-color: transparent;
+}
+.breadcrumb_bg {
+    margin-bottom: 40px;
+    width: 100%;
+    position: relative;
+}
+.breadcrumb-box-img img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+}
+.title-full {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 55px;
+    display: flex;
+    justify-content: center;
+}
+
+.title-full .title-page {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+    font-family: "Quicksand", sans-serif;
+    color: #000;
+    margin: 0;
+}

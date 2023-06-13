@@ -1,0 +1,114 @@
+.category-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    border: 1px solid #91ad41;
+}
+.category-header h1 {
+    font-size: 22px;
+}
+.sort-cate-left {
+    display: flex;
+}
+.sort-cate-left h3 {
+    font-size: 17px;
+    font-weight: 100;
+    margin-right: 15px;
+}
+.sort-cate-list {
+    display: flex;
+}
+.sort-cate-item {
+    margin-right: 10px;
+    margin-top: 2px;
+    position: relative;
+}
+.sort-cate-item span {
+    height: 14px;
+    width: 14px;
+    border: 1px solid #cdcfdd;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    margin: -3px 5px 0 0;
+    position: relative;
+    cursor: pointer;
+}
+.sort-cate-item i {
+    position: absolute;
+    left: 0.5px;
+    font-size: 12px;
+    top: 1px;
+    transition: all ease 0.3s;
+    display: none;
+}
+.sort-cate-item span:hover i {
+    display: block;
+}
+.content-tab-item {
+    transition: all ease 0.2s;
+    margin-top: 20px;
+}
+.content-tab-item:hover {
+    box-shadow: 0px 12px 16px rgb(0 0 0 / 12%);
+}
+.product-thumnail {
+    border: 1px solid #f5f6fb;
+}
+.product-thumnail img {
+    width: 100%;
+}
+.product-info {
+    padding-top: 25px;
+    background-color: #f5f6fb;
+    padding-bottom: 25px;
+    min-height: 110px;
+}
+.product-info .product-name {
+    font-size: 15px;
+    text-align: center;
+}
+.product-price {
+    font-size: 13px;
+    display: block;
+    font-weight: bold;
+    color: #91ad41;
+    text-align: center;
+    padding-top: 5px;
+}
+.pagination {
+    display: flex;
+    margin-top: 20px;
+}
+.total-page, .page-items,.next-page {
+    background-color: #eee;
+    padding: 6px 12px;
+    margin: 0 3px;
+    font-size: 15px;
+    border-radius: 5px;
+    color: #535353;
+}
+.total-page {
+    margin-right: 10px;
+}
+.next-page {
+    font-size: 13px;
+    margin-left: 10px;
+}
+.page-current {
+    background-color: rgb(196, 196, 196);
+}
+@media  screen and (max-width:740px) {
+    .category-main {
+        margin: 0 10px;
+    }
+    .sort-cate-left {
+        display: none;
+    }
+    .category-header {
+        display: block !important;
+    }
+    .category-header h1 {
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,250 @@
+
+.cart-main {
+    margin-top: 30px;
+} 
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    border: 1px solid #e7e7e7;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.cart-img img {
+    width: 100px;
+}
+.cart-name-price {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.cart-price {
+    color: #91ad41;
+}
+.quantity-product {
+    margin-right: 150px;
+    margin-top: 25px;
+}
+.total-item {
+    margin-right: 20px;
+    min-width: 100px;
+}
+.total-item-main {
+    margin-top: 15px;
+    color: #91ad41;
+}
+.cart-item-delete {
+    margin-top: 10px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+.cart-item-delete a{
+    color: #b9b9b9;
+    font-size: 14px;
+}
+.cart-item-left {
+    display: flex;
+}
+.cart-item-right {
+    display: flex;
+}
+.cart-update {
+    display: flex;
+    justify-content: flex-end;
+}
+.cart-update button{
+    border: navajowhite;
+    padding: 8px 17px;
+    border-radius: 18px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.box-quantity-product {
+    display: flex;
+}
+.tru,
+.cong {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #cdcdcd;
+    cursor: pointer;
+    background: transparent;
+    border-radius: 50%;
+}
+.tru {
+    margin-right: 10px;
+}
+.cong {
+    margin-left: 10px;
+}
+.tru:hover,.cong:hover {
+    background-color: rgb(214, 214, 214);
+}
+.value-quantity {
+    outline: none;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #cdcdcd;
+    padding-left: 11px;
+    font-size: 15px;
+    border-radius: 50%;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.cart-footer-box {
+    display: flex;
+    margin-top: 40px;
+    justify-content: flex-end;
+}
+.total-main {
+    display: flex;
+    margin-bottom: 30px;
+    justify-content: flex-end;
+}
+.total-main h1 {
+    margin-left: 10px;
+    font-size: 23px;
+    color: #91ad41;
+}
+.total-main span {
+    padding-top: 5px;
+}
+.cart-footer-main {
+    display: flex;
+}
+.continue-buy,.dat-hang {
+    padding: 10px 25px;
+    border-radius: 20px;
+}
+.continue-buy {
+    background-color: #b9b9b9;
+    margin-right: 20px;
+}
+.continue-buy  a {
+    color: #000;
+}
+.dat-hang a{
+    color: #fff;
+}
+.box-img-cart-empty {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.cart-empty-main {
+    display: none;
+}
+.box-img-cart-empty img {
+    width: 500px;
+    margin-right: 50px;
+}
+.cart-empty-main-title {
+    display: flex;
+    justify-content: center;
+    margin-top:25px;
+    font-size: 25px;
+    font-weight: 600;
+    margin-right: 45px;
+}
+.continue_view {
+    display: flex;
+    margin-right: 20px;
+    padding: 6px 7px;
+    border: 2px solid #000;
+    cursor: pointer;
+}
+.continue_view span {
+    color: #000;
+    font-weight: 600;
+    margin-left: 5px;
+    font-size: 15px;
+}
+.continue_view:hover {
+    background-color: #000;
+}
+.continue_view:hover span{
+    color: #fff;
+}
+.continue_view i{
+    color: #000;
+}
+.continue_view:hover i{
+    color: #fff;
+}
+@media  screen and (max-width:740px) {  
+    .cart {
+        margin: 0 10px;
+    }
+    .cart-img img {
+        width: 60px;
+    }
+    .cart-name,.cart-price {
+        font-size: 13px;
+        min-width: 80px;
+    }
+    .tru, .cong {
+        width: 23px;
+        height: 23px;
+    }
+    .tru {
+        margin-right: 4px;
+    }
+    .cong {
+        margin-left: 4px;
+    }
+    .value-quantity {
+        width: 23px;
+        height: 23px;
+        padding-left: 7px;
+        font-size: 12px;
+    }
+    .quantity-product {
+        margin: 0;
+        margin-top: 25px;
+    }
+    .total-title {
+        font-size: 14px;
+    }
+    .total-item-main {
+        margin: 0;
+        font-size: 13px;
+    }
+    .cart-item-delete {
+        margin: 0;
+    }
+    .cart-item-delete a {
+        font-size: 11px;
+    }
+    .cart-update button {
+        padding: 5px 12px;
+        margin-top: 0px;
+        font-size: 11px;
+    }
+    .cart-footer-box {
+        margin-top: 20px;
+    }
+    .total-main h1 {
+        font-size: 17px;
+    }
+    .total-main span {
+        padding: 0;
+    }
+    .continue-buy, .dat-hang {
+        padding: 7px 12px;
+        font-size: 12px;
+    }
+    .continue-buy {
+        margin-right: 10px;
+    }
+    .box-img-cart-empty img {
+        width: 300px;
+        margin-right: 22px;
+    }
+    .cart-empty-main-title {
+        margin-right: 22px;
+    }
+}

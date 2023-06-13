@@ -1,0 +1,114 @@
+.footer {
+    padding-top: 50px;
+}
+.new-letter {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: rgba(232, 218, 199, 0.6);
+    border-top: 1px solid #e8dac7;
+    background-repeat: no-repeat;
+    background-position: center top;
+    position: relative;
+    /* float: left; */
+    width: 100%;
+}
+.letter-left {
+    font-size: 25px;
+}
+.new-letter-input input{
+    width: 450px;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    font-size: 17px;
+}
+.new-letter-btn button {
+    border: none;
+    font-weight: 400;
+    height: 42px;
+    border-radius: 30px;
+    background-color: #91ad41;
+    color: #fff;
+    min-width: 110px;
+    text-transform: none;
+    margin-left: -20px !important;
+    z-index: 9 !important;
+    cursor: pointer;
+}
+.footer-main {
+    padding: 40px 0;
+}
+.footer-col1-item {
+    display: flex;
+    margin: 15px 0;
+}
+.footer-col1-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #91ad41;
+    margin-right: 10px;
+    color: #91ad41;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+
+}
+.footer-col1-item span {
+    padding-top: 5px;
+    display: block;
+    font-size: 15px;
+}
+.footer-rest-title h3 {
+    font-size: 16px;
+}
+.footer-rest-list {
+    padding-top: 20px;
+}
+.footer-rest-list li {
+    padding: 8px 0;
+}
+.copyright {
+    background-color: rgba(232, 218, 199, 0.6);
+    border-top: 1px solid #e8dac7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+}
+@media  screen and (max-width:740px) {
+    .letter-left {
+        font-size: 19px;
+        padding-left: 65px;
+    }
+    .new-letter-input {
+        padding-left: 45px;
+        margin-top: 10px;
+    }
+    .new-letter-input input {
+        width: 260px;
+        padding: 10px 12px;
+        font-size: 13px;
+    }
+    .new-letter-btn {
+        margin-top: 10px;
+    }
+    .new-letter-btn button {
+        min-width: 100px;
+        height: 36px;
+    }
+    .footer-col1-icon {
+        width: 30px !important;
+    }
+    .footer-item:nth-child(3),.footer-item:nth-child(4) {
+        display: none;
+    }
+    .footer-rest-list {
+        padding-top: 0px;
+    }
+    .footer-main {
+        padding-left: 20px;
+    }
+    
+}

@@ -1,0 +1,222 @@
+.infor-product-order {
+    padding-top: 15px;
+    border-bottom: 1px solid #dadada;
+}
+.product-item {
+    justify-content: space-between;
+    padding-bottom: 15px;
+}
+.product-img {
+    position: relative;
+}
+.product-img img {
+    width: 70px;
+    border-radius: 10px;
+    border: 1px solid #e5e2e2;
+}
+.quantity-product {
+    position: absolute;
+    background-color: #a3a3a3;
+    top: -8px;
+    right: -8px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+.quantity-product span {
+    width: max-content;
+}
+.product-name {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    font-weight: 600;
+    color: #484848;
+}
+.product-price {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    font-weight: 600;
+    width: 80px;
+}
+.ma-giam-gia {
+    justify-content: space-between;
+    padding: 20px 0;
+    border-bottom: 1px solid #dadada;
+}
+.ma-giam-gia input {
+    width: 70%;
+    padding: 12px 10px;
+    font-size: 15px;
+    outline: navajowhite;
+    border-radius: 4px;
+    border: 1px solid #999;
+    transition: all 0.2s ease-out;
+}
+.ap-dung-ma {
+    background-color: #c8c8c8;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    padding: 5px 15px;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 3px;
+    margin-right: 17px;
+    cursor: pointer;
+}
+.ma-giam-gia input:focus {
+    box-shadow: 0 0 0 2px #338dbc;
+}
+.tam-tinh {
+    padding: 10px 0;
+    border-bottom: 1px solid #dadada;
+    padding-right: 20px;
+}
+.tam-tinh-main ,.phi-van-chuyen,.tong-cong {
+    justify-content: space-between;
+    padding-top: 5px;
+}
+.tong-cong {
+    padding-bottom: 30px;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+@media  screen and (max-width:740px) {
+    .checkout_product {
+        margin: 20px;
+    }
+    .ap-dung-ma {
+        font-size: 12px;
+    }
+}
+.hr-boder {
+    border: none;
+    border-radius: 20px;
+    border-top: 1px solid  #c7c7c7;
+    margin: 16px 0;
+    width: 100%;
+}
+.text-head {
+    font-size: 22px;
+    font-weight: 600;
+}
+.payment-wrapper {
+    align-items: center;
+    background-color: #fafafa;
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    padding: 18px 0;
+}
+
+
+/* gia ban */
+.gia-ban-tit {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 4px;
+}
+.gia {
+    display: flex;
+}
+.gia-ban {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.gia-gach {
+    text-decoration: line-through;
+    font-size: 13px;
+    color: #aaa;
+    margin-right: 15px;
+    margin-top: 4px;
+}
+.detail-text {
+    margin-top: 16px;
+}
+.tong-tien {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.pr-title {
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.pr-qr-code {
+    display: flex;
+    margin-top:15px;
+}
+.pr-img img{
+    width:150px;
+    border-radius: 20px;
+}
+.pr-qr-detail {
+    margin: 15px;
+}
+.pr-qr-detail li {
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+}
+.ma-kh {
+    display:contents;
+    font-weight:600;
+    color: #d70000;
+}
+.pr-title-bottom {
+    margin-top: 20px;
+}
+.pr-qr-hand {
+    margin-top: 15px;
+}
+.pr-qr-box {
+    display: flex;
+}
+.none {
+    display: none;
+}
+.pr-qr-item-tit span{
+    font-weight: 600;
+    font-size: 13px;
+    color: #6f6f6f;
+}
+.pr-qr-item {
+    width: 50%;
+    background-color: #f6f5f5;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin: 5px;
+    border-radius: 8px;
+}
+.pr-qr-item-content {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 4px;
+}
+.pay-attention {
+    margin-top: 15px;
+}
+.pa1 {
+    font-weight: 600;
+    margin-top: 20px;
+}
+.icon-hide {
+    font-size: 20px;
+    font-size: 24px;
+    margin-top: -5px;
+    margin-right: 4px;
+    cursor: pointer;
+}
