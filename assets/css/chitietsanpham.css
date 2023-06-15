@@ -360,6 +360,12 @@ input::-webkit-inner-spin-button {
     text-decoration: none;
     color: black;
 }
+.chinh-sach-item {
+    color: #000;
+}
+.danhmuc-trangchu {
+color: #91ad41;
+}
 @media  screen and (max-width:740px) {
     .chitiet-mota {
         font-size: 14px;

@@ -246,6 +246,12 @@
     margin-top: 10px;
     display: block;
 }
+.chinh-sach-item {
+    color: #000;
+}
+.danhmuc-trangchu {
+color: #91ad41;
+}
 .top-thuong-hieu {
     margin-top: 50px;
 }

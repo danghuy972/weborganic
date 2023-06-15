@@ -175,6 +175,12 @@ input::-webkit-inner-spin-button {
 .continue_view:hover i{
     color: #fff;
 }
+.chinh-sach-item {
+    color: #000;
+}
+.danhmuc-trangchu {
+color: #91ad41;
+}
 @media  screen and (max-width:740px) {  
     .cart {
         margin: 0 10px;
